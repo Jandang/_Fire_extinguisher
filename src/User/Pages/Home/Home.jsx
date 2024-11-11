@@ -34,7 +34,7 @@ function Home({ fireInfo }) {
         <div className="home-container">
             <div className="home-header">
                 <div>
-                    <img src="/img/logo1.svg" alt="" className="logo" />
+                    <img src="/logo1.svg" alt="" className="logo" />
                 </div>
                 <span>
                     <input
