@@ -1,0 +1,121 @@
+.back-icon {
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    color: #FD6E2B;
+}
+.firedetails-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'prompt', sans-serif;
+    width: calc(320px - 35px);
+    margin: auto;
+}
+.check-img {
+    width: 340px;
+    height: 150px;
+    background-color: rgb(225, 225, 225);
+    border: 3px #888888;
+    border-style: dashed;
+    margin: auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.check-text {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'prompt', sans-serif;
+    margin: auto;
+    color: #888888;
+}
+.bi-box-arrow-in-down {
+    font-size: 40px;
+    font-weight: 500;
+    color: #888888;
+}
+.firedetails-report {
+    width: 340px;
+    height: max-content;
+    font-family: 'prompt', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border: solid 1px #000000;
+    border-radius: 15px;
+    padding: 1rem 1rem;
+    margin: 1rem auto;
+    text-align: left;
+}
+.firedetails-button-container {
+    width: 320px;
+    position: fixed;
+    top: 750px;
+    z-index: 1000;
+}
+.firedetails-button {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'prompt', sans-serif;
+    color: #F2F2E6;
+    background-color: #FD6E2B;
+    border: transparent;
+    border-radius: 28px;
+    padding: 5px 16px;
+    cursor: pointer;
+    height: max-content;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.firedetails-time {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'prompt', sans-serif;
+    width: 330px;
+    margin: auto;
+    font-size: 18px;
+}
+.firedetails-info {
+    font-family: 'prompt', sans-serif;
+    width: 330px;
+    margin: auto;
+    font-size: 18px;
+}
+.firedetails-check {
+    font-family: 'prompt', sans-serif;
+    width: 330px;
+    margin: auto;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+}
+.firedetails-radio {
+    font-family: 'prompt', sans-serif;
+    width: 330px;
+    margin: auto;
+    font-size: 24px;
+    text-align: left;
+    color: #000000;
+}
+.form-check-input[type="radio"] {
+  border-color: #000000;
+  border-width: 2px;
+}
+.form-check-input[type="radio"]:checked {
+  background-color: #FD6E2B;
+  border-color: #FD6E2B;
+}
+.form-check-input[type="radio"]:focus{
+    border-color: #FD6E2B;
+    box-shadow: 0 0 0 0.25rem rgba(253, 110, 43, 0.25);
+}
+.fire-body {
+    overflow-y: auto;
+    height: 640px;
+}

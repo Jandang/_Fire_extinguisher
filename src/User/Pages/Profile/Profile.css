@@ -1,0 +1,46 @@
+/* .profile-container {
+} */
+.profile-title {
+    font-family: 'unbounded', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #000000;
+    margin: 24px;
+    text-align: center;
+}
+.profile-img {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(197, 198, 192);
+    border-radius: 100px;
+    margin: auto;
+}
+.profile-name {
+    font-family: "Prompt", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    margin: 24px 24px 0px 24px; 
+    text-align: center;
+}
+.profile-username {
+    font-family: 'prompt', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+.logout-button {
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    color: #ff0000;
+    background-color: transparent;
+    font-family: 'prompt', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+}
+.profile-logout {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}

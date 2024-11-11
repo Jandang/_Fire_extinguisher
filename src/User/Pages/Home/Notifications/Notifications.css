@@ -1,0 +1,31 @@
+.fire-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    margin: 0;
+    height: 725px;
+    overflow-y: auto;
+    width: 100%;
+    font-family: 'prompt', sans-serif;
+}
+.fire-header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.back-icon {
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    color: #FD6E2B;
+}
+.fire-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'prompt', sans-serif;
+    width: calc(320px - 35px);
+    margin: auto;
+}

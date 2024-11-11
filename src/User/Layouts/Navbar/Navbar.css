@@ -1,0 +1,41 @@
+.navbar-container {
+    width: 375px;
+    height: max-content;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 24px; */
+    /* margin: 16px auto; */
+    text-align: center;
+    justify-items: center;
+    place-items: center;    
+}
+
+.home-icon {  
+    font-size: 50px;
+    color: #B3B4AD;
+    transition: all 0.1s ease;
+    
+}
+.profile-icon {
+    font-size: 55px;
+    color: #B3B4AD;
+    transition: all 0.1s ease;
+}
+.navbar-scan-button {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #FD6E2B;
+    border: transparent;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.scan-icon {
+    font-size: 35px;
+    color: #ffffff;
+}
